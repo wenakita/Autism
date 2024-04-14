@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Martian Mono;
+  src: url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap");
+}
+.main {
+  color: #ffffff;
+  font-family: "Martian Mono", monospace;
+  letter-spacing: 0.15rem;
+  width: calc(100% + 0.025rem);
+  font-size: 1.75em;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.sub-main {
+  color: #ffffff;
+  font-family: "Martian Mono", monospace;
+  letter-spacing: 0.095rem;
+  width: calc(100% + 0.025rem);
+  font-size: 0.75em;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.sub-sub-main {
+  color: #ffffff;
+  font-family: "Martian Mono", monospace;
+  letter-spacing: 0.095rem;
+  font-size: 0.9em;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fader {
+  animation: 1.5s fadeIn;
+}
